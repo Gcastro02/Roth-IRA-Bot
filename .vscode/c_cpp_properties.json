@@ -1,9 +1,11 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "WSL",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++",
